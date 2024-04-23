@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+/* Start Nav */
+/* nav .row{
+  position: relative;
+} */
+.menu a {
+  padding-left: 2.5rem;
+  color: #000;
+}
+.menu button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding-left: 2.5rem;
+}
+.search-icon {
+  width: 18px;
+}
+.shopping-icon {
+  width: 28px;
+}
+.hamberger{
+  display: none;
+}
+@media (max-width: 770px){
+
+.menu{
+  position: absolute;
+  background-color: #ffffff;
+ box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.183);
+  height: 100vh;
+  width: 300px;
+  display: flex !important;
+  flex-direction: column !important ;
+  justify-content: center !important;
+  align-items: center !important;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  transform: translateX(1200px);
+  transition: 0.5s;
+}
+.menu a, button{
+  margin: 20px 0;
+}
+.hamberger{
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 80px;
+  height: 30px;
+  border: none;
+  background-color: #e02c6d;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+  right: 20px;
+  z-index: 20;
+}
+.show{
+   transform: translateX(0px) !important;
+}
+}
+/* End Nav */
+
+/* Strat Hero */
+.hero-text {
+  color: #3a3a3a;
+}
+.hero-text h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 70px;
+}
+.hero-text p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 0.8rem;
+}
+.hero-text button {
+  width: 170px;
+  background-color: #e02c6d;
+  border-radius: 41px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 0;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.hero-img img {
+  width: 80%;
+}
+/* End Hero */
+
+/* Start Banner */
+.brand-hr {
+  width: 70%;
+  margin: auto;
+  color: rgba(0, 0, 0, 0.3);
+}
+/* End Banner */
+
+/* Start collection Section */
+#collection {
+  margin-top: 100px;
+}
+#collection h1 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 70px;
+
+  color: #3a3a3a;
+  text-align: center;
+}
+.card {
+  background-color: white;
+  box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.183);
+  border-radius: 5px;
+  padding: 15px;
+}
+.card > img {
+  width: 100%;
+}
+.card h2 {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 40px;
+  color: #18191f;
+  margin-top: 0.5rem;
+}
+.card h3 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: rgba(0, 0, 0, 0.87);
+}
+.card p {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 143%;
+
+  color: #787885;
+}
+/* End collection Section */
+
+/* Start Action Section */
+#action {
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+.action-img {
+  width: 100%;
+}
+.action-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.action-text h1 {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 60px;
+  color: #0a0826;
+}
+.action-text p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  margin-top: 10px;
+  color: #474343;
+  width: 80%;
+}
+.action-text button {
+  width: 160px;
+  background-color: #e02c6d;
+  border-radius: 2px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 0;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* End Acion Section */
+
+/* Start footer Section */
+#footer {
+  background-color: #0a0826;
+  text-align: center;
+  color: white;
+  padding: 50px 0;
+}
+.footer-text h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 5px;
+}
+.footer-text p {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #d9dbe1;
+}
+.icon img {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/* End footer Section */
